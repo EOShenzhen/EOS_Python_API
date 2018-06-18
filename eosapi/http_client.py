@@ -76,16 +76,16 @@ class HttpRequest(object):
                 RemoteDisconnected,
                 ProtocolError) as e:
         '''
-
+'''
 
     def _exec(self, api, interface, body=None, retry=0):
         '''
-    
+
         确定执行的方法 eosd RPC
         :return:
         '''
         url = f"{self.node_url}/{self.api_version}/{api}/{interface}"
-
+'''
 
     def __return(self):
         '''
@@ -95,5 +95,5 @@ class HttpRequest(object):
         '''
 
 if __name__ ==  '__main__':
-    h = HttpClient(["http://localhost:8888", "http://localhost:8899"])
+    h = HttpClient(["http://120.197.130.118:8888", "http://120.197.130.118:8888"])
     print(h.http_call('chain','get_block',{"block_num_or_id": 5}))
