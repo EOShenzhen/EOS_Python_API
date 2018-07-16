@@ -6,40 +6,40 @@ eos API Reference
 
 ### get_info :
 
-- /v1/chain/get_info   
+- http://127.0.0.1:8888/v1/chain/get_info   
 - 返回包含区块链的各种详细信息的对象。 
 
 
 
 ###  get_block :
 
-- /v1/chain/get_block   
+- http://127.0.0.1:8888/v1/chain/get_block   
 - 返回一个对象，其中包含有关区块链上特定块的各种详细信息。 
 
 
 
 ### get_block_header_state :
 
-- /v1/chain/get_block_header_state 
+- http://127.0.0.1:8888/v1/chain/get_block_header_state 
 
 
 
 ### get_account :
 
-- /v1/chain/get_account
+- http://127.0.0.1:8888/v1/chain/get_account
 - 返回一个对象，其中包含有关区块链上特定帐户的各种详细信息。 
 
 
 
 ### get_abi:
 
-- /v1/chain/get_abi 
+- http://127.0.0.1:8888/v1/chain/get_abi 
 
 
 
 ### get_code:
 
-- /v1/chain/get_code 
+- http://127.0.0.1:8888/v1/chain/get_code 
 
 - 返回一个对象，其中包含有关区块链上特定智能合约的各种详细信息。 
 
@@ -47,7 +47,7 @@ eos API Reference
 
 ### get_table_rows :
 
-- v1/chain/get_table_rows 
+- http://127.0.0.1:8888/v1/chain/get_table_rows 
 
 - 返回包含指定表中行的对象。 
 
